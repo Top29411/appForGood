@@ -1,0 +1,19 @@
+
+
+.head_title{
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #3D261C ;
+  margin-bottom:30px;
+}
+
+.gridCssDesktop{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+  grid-gap: 20px;
+  justify-content: center;
+  padding: initial;
+}

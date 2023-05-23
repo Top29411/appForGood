@@ -1,0 +1,45 @@
+.head_title{
+    font-family: 'Unbounded' ;
+    font-style: normal ;
+    font-weight: 500 ;
+    font-size: 32px ;
+    line-height: 44px ; 
+
+    color: #3D261C ;
+}
+
+.collapse_head_title{
+    font-family: 'Sora' ;
+    font-style: normal ;
+    font-weight: 700 ;
+    font-size: 14px ;
+    line-height: 20px ;
+    color: #3D261C ;
+}
+.title{
+    font-family: 'Sora' ;
+    font-style: normal ;
+    font-weight: 600 ;
+    font-size: 12px ;
+    line-height: 20px ;
+    text-transform: uppercase ;
+    color: #C5BEBB ;
+    margin-bottom: 4px ;
+}
+
+.detail_info{
+    font-family: 'Sora' ;
+    font-style: normal ;
+    font-weight: 600 ;
+    font-size: 14px ;
+    line-height: 20px ;
+    color: #3D261C ;
+}
+
+.gridCssDesktop{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(91px, max-content));
+    grid-gap: 6px;
+    justify-content: center;
+    padding: initial;
+  }
